@@ -18,6 +18,9 @@ const createDefaultAdmin = async () => {
             await newAdmin.save();
             console.log("Default admin user created with username: " + newAdmin.name,"password: " + newAdmin.password);
         }
+        else {
+            console.log("Default admin user username: " + adminExists.name,"password: " + adminExists.password)
+        }
     } catch (error) {
         console.error("Error creating default admin:", error);
     }

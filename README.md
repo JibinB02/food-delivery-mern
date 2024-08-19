@@ -33,15 +33,10 @@ Make sure you have the following installed:
     git clone https://github.com/JibinB02/food-delivery-mern.git
     ```
 
-2. Navigate into each folder (`admin`, `backend`, `frontend`) and install the dependencies:
+2. Navigate into each folder (`backend`, `frontend`, `admin`) and install the dependencies:
 
     ```bash
-    cd admin
-    npm install
-    ```
-
-    ```bash
-    cd ../backend
+    cd backend
     npm install
     ```
 
@@ -50,13 +45,18 @@ Make sure you have the following installed:
     npm install
     ```
 
+    ```bash
+    cd ../admin
+    npm install
+    ```
+
 ### Running the Project
 
-1. **Admin Panel**:
-    - Navigate to the `admin` folder and run the following command:
+1. **Backend**:
+    - Navigate to the `backend` folder and run the following command:
 
     ```bash
-    npm run dev
+    npm run server
     ```
 
 2. **Frontend**:
@@ -66,11 +66,11 @@ Make sure you have the following installed:
     npm run dev
     ```
 
-3. **Backend**:
-    - Navigate to the `backend` folder and run the following command:
+3. **Admin Panel**:
+    - Navigate to the `admin` folder and run the following command:
 
     ```bash
-    npm run server
+    npm run dev
     ```
 
 4. Ensure MongoDB is running on your system. You can start it using:

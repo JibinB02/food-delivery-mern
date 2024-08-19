@@ -10,3 +10,24 @@
 .navbar .profile{
     width: 40px;
 }
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.logout-button{
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logout-button:hover{
+    background-color: rgb(255, 194, 183);
+}

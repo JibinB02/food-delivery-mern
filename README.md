@@ -30,7 +30,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/food-delivery-project.git
+    [git clone https://github.com/JibinB02/food-delivery-mern.git
     ```
 
 2. Navigate into each folder (`admin`, `backend`, `frontend`) and install the dependencies:

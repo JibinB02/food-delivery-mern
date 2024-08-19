@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 import AdminLogin from "./pages/AdminLogin/AdminLogin";
 
 const App = () => {
-  const url = "http://food-delivery-backend-p55h.onrender.com";
+  const url = "https://food-delivery-backend-p55h.onrender.com";
 
   const [isAuthenticated,setIsAuthenticated] = useState(false);
   const navigate = useNavigate();
